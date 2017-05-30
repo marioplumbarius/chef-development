@@ -16,7 +16,8 @@ module PACKAGES
         'xfce4-settings',
         'xfce4-systemload-plugin',
         'xfce4-terminal',
-        'xfce-polkit'
+        'xfce-polkit',
+        'xscreensaver'
     ]
     
 end
