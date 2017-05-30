@@ -1,7 +1,7 @@
 module PACKAGES
     USER = [
-	'google-chrome-stable',
-	'spotify-client'
+        'google-chrome-stable',
+        'spotify-client'
     ]
 
     REPOS = [
@@ -9,19 +9,19 @@ module PACKAGES
     ]
 
     NET = [
-	'net-tools', # arp
-	'bind-utils', # dig
-	'iputils', # traceroute
+        'net-tools', # arp
+        'bind-utils', # dig
+        'iputils', # traceroute
         'traceroute',
         'mtr',
         'telnet',
-	'tcpdump',
-	'nmap',
-	'hostname',
-	'iw',
-	'lsof',
-	'strace',
-	'ltrace'
+        'tcpdump',
+        'nmap',
+        'hostname',
+        'iw',
+        'lsof',
+        'strace',
+        'ltrace'
     ]
 
     DEVELOPMENT = [
