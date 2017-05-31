@@ -18,7 +18,8 @@ module PACKAGES
         'xfce4-terminal',
         'xfce-polkit',
         'xscreensaver',
-        'xfce4-mixer'
+        'xfce4-mixer',
+        'pavucontrol'
     ]
-    
+
 end
