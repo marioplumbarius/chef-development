@@ -34,3 +34,9 @@ yum_repository 'docker-ce-stable' do
     gpgcheck true
     gpgkey 'https://download.docker.com/linux/centos/gpg'
 end
+
+package 'epel-release'
+
+rpm_package 'osquery-repo' do
+  source                     'https://osquery-packages.s3.amazonaws.com/centos7/noarch/osquery-s3-centos7-repo-1-0.0.noarch.rpm'
+end

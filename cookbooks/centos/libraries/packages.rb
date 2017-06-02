@@ -4,10 +4,6 @@ module PACKAGES
         'spotify-client'
     ]
 
-    REPOS = [
-    	'epel-release'
-    ]
-
     NET = [
         'net-tools', # arp
         'bind-utils', # dig
@@ -36,7 +32,8 @@ module PACKAGES
         'wget',
         'tree',
         'yum-utils',
-        'clusterssh'
+        'clusterssh',
+        'osquery'
     ]
 
     COMPRESS = [
@@ -47,7 +44,6 @@ module PACKAGES
 
     ALL = [
         USER,
-        REPOS,
         NET,
         DEVELOPMENT,
         UTIL,
